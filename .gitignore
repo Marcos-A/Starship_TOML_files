@@ -1,0 +1,72 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Python compiled bytecode
+*.pyc
+__pycache__/
+*/__pycache__/
+
+# Static directory created by Django through 'python manage.py collectstatic'
+/static/
+
+# Sensitive data
+log/*
+
+# keep log folder
+!log/.gitkeep
+
+# VS Code editor data
+.vscode/*
+
+# Plots exported as image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.tif
+*.svg
+*.svgz
+*.pdf
+*.ico
+*.raw
+*.webp
+
+# Juoyter checkpoints
+*/.ipynb_checkpoints/*.ipynb
+
+# HTML/PDF exported notebooks
+*.html
+*.pdf
+
+# Discarded versions
+descartats/
+
+# Temp files
+*.~lock.*
+~$*
